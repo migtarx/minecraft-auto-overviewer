@@ -1,11 +1,12 @@
 {
     "python_ver": "3.9",
-    "time_zone": "",
+    "time_zone": "Europe/Madrid",
     "min": "55",
     "hour": "5",
     "dayom": "*",
     "month": "*",
     "dayow": "*",
     "minecraft_overviewer_loc": "minecraft-overviewer/overviewer.py",
-    "minecraft_overviewer_configfile_loc": "./minecraft-overviewer/configfile_epsilon.txt"
+    "minecraft_overviewer_configfile_loc": "./minecraft-overviewer/configfile_epsilon.txt",
+    "render_out_dir": "/home/epsilonworld/map-web-server/map"
 }
