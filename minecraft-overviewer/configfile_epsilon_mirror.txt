@@ -1,0 +1,24 @@
+worlds["world"] = "/home/epsilonworld/servers/mirror/qb_multi/slot1/world"
+world="world"
+outputdir = "/home/epsilonworld/mirror-map-web-server/map"
+processes = 4
+
+renders["Overworld"] = {
+    "title": "3D Overworld",
+    "rendermode": "smooth_lighting",
+    "dimension": "overworld",
+    'crop': (-30000, -30000, 30000, 30000),
+}
+
+renders["Nether"] = {
+    "title": "3D Nether",
+    "rendermode": "normal",
+    "dimension": "nether",
+    'crop': (-5000, -5000, 5000, 5000),
+}
+
+renders["End"] = {
+    "title": "3D End",
+    "dimension": "end",
+    'crop': (-5000, -5000, 5000, 5000),
+}
