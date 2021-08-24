@@ -1,14 +1,25 @@
 {
   "name": "minecraft-auto-overviewer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automates https://overviewer.org renders with a simple nodeJS app using cron and shellJS.",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migtarx/minecraft-auto-overviewer.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migtarx/minecraft-auto-overviewer/issues"
+  },
+  "homepage": "https://github.com/migtarx/minecraft-auto-overviewer#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "cron": "^1.8.2",
