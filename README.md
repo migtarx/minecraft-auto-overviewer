@@ -17,7 +17,7 @@ First of all you will need to set up the config file.
 
 This is a `config.json` file example.
 
-This render will be using python3.9 for the rendering process and it will be executed everyday at 5:55 am `Europe/Madrid` time. It will execute the render picking up the `overviewer.py` from `/home/migtarx/minecraft-overviewer/` and rendered out to `/home/migtarx/minecraft-overviewer/` where also `assets` will be copied out too.
+This render will be using python3.9 for the rendering process and it will be executed everyday at 5:55 am `Europe/Madrid` time. It will execute the render picking up the `overviewer.py` from `/home/migtarx/minecraft-overviewer/` and rendered out to `/home/migtarx/web-server/map/` where also `assets` will be copied out too.
 
 This render will be also picking the config file required for custom render paramethers from `/home/migtarx/minecraft-overviewer/render_config.txt`. A config file is required for at least tell overviewer where to pick the world and where to render it.
 ```json
