@@ -1,6 +1,6 @@
 # Minecraft Auto Overviewer
 
-Minecraft Auto Overviewer is a server side app that automates https://overviewer.org renders using cron and shelljs npm dependencies. Minecraft Auto Overviewer will allow you to execute a Overviewer render when ever you want. Can be multiple times in a day, onces everyday, onces a week, onces a month...
+Minecraft Auto Overviewer is a server side app that automates [Overviewer](https://github.com/overviewer/Minecraft-Overviewer/) renders using cron and shelljs npm dependencies. Minecraft Auto Overviewer will allow you to execute a Overviewer render when ever you want. Can be multiple times in a day, onces everyday, onces a week, onces a month...
 
 ## Installation
 1. Clone the repo
